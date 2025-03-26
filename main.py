@@ -18,4 +18,5 @@ def rombusz(szelesseg):
         else:
             k -= 2
 
-rombusz(10)
+romb_szel = int(input("Milyen széles rombuszt szeretnél?: "))
+rombusz(romb_szel)
